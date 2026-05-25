@@ -74,7 +74,7 @@ Testing has shown that cross-compilation can speed up the build process by **10x
 - Cache Mounts for Go Compiler:
   Rely on a cache backed by a remote repository, because a new agent is allocated for each pipeline execution, making mount-type caching
   ineffective.
-  Use mounts a cache type for Go package downloads. The binary compilation cache did not increase speed during tests.
+  Use the cache mounts type for Go package downloads. The binary compilation cache did not increase speed during tests.
 
 ### Example Dockerfile to Build Publicly Available Images
 
